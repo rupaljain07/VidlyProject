@@ -203,6 +203,14 @@
     <Compile Include="Migrations\202106012004472_SetNameOfMembershipTypes.Designer.cs">
       <DependentUpon>202106012004472_SetNameOfMembershipTypes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202106012016267_AddBirthdateToCustomer.cs" />
+    <Compile Include="Migrations\202106012016267_AddBirthdateToCustomer.Designer.cs">
+      <DependentUpon>202106012016267_AddBirthdateToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202106012104539_DeleteAllRowsFromCustomer.cs" />
+    <Compile Include="Migrations\202106012104539_DeleteAllRowsFromCustomer.Designer.cs">
+      <DependentUpon>202106012104539_DeleteAllRowsFromCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -313,6 +321,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202106012004472_SetNameOfMembershipTypes.resx">
       <DependentUpon>202106012004472_SetNameOfMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106012016267_AddBirthdateToCustomer.resx">
+      <DependentUpon>202106012016267_AddBirthdateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106012104539_DeleteAllRowsFromCustomer.resx">
+      <DependentUpon>202106012104539_DeleteAllRowsFromCustomer.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
